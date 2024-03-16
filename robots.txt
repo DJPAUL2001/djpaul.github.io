@@ -1,0 +1,50 @@
+User-agent: Applebot
+Disallow: /elements.html
+
+User-agent: baiduspider
+Disallow: /elements.html
+
+User-agent: Bingbot
+Disallow: /elements.html
+
+User-agent: DuckDuckBot
+Disallow: /elements.html
+
+User-agent: Googlebot
+Disallow: /elements.html
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /elements.html
+
+User-agent: msnbot
+Disallow: /elements.html
+
+User-agent: Naverbot
+Disallow: /elements.html
+
+User-agent: seznambot
+Disallow: /elements.html
+
+User-agent: Slurp
+Disallow: /elements.html
+
+User-agent: teoma
+Disallow: /elements.html
+
+User-agent: Twitterbot
+Disallow: /elements.html
+
+User-agent: Yandex
+Disallow: /elements.html
+
+User-agent: Yeti
+Disallow: /elements.html
+
+User-agent: *
+Disallow: /
