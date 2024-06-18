@@ -3847,12 +3847,12 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				width: 50%;
+				width: 33.33%;
 			}
 
 			#main > .posts > * {
 				padding: 4rem;
-				width: 50%;
+				width: 33.33%;
 			}
 
 			#main > .posts > article {
@@ -3863,7 +3863,9 @@ input, select, textarea {
 				text-align: center;
 			}
 
-				#main > .posts > article > :last-child {
+				/* Commenting out the following to bring back border lines for 3 columns */
+
+				/* #main > .posts > article > :last-child {
 					margin-bottom: 0;
 				}
 
@@ -3873,17 +3875,17 @@ input, select, textarea {
 
 				#main > .posts > article:nth-child(-n + 2) {
 					border-top-width: 0;
-				}
+				} */
 
 			@media screen and (max-width: 980px) {
 
 				#main > .posts > * {
-					width: 50%;
+					width: 33.33%;
 				}
 
 				#main > .posts > * {
 					padding: 2.5rem;
-					width: 50%;
+					width: 33.33%;
 				}
 
 			}
@@ -3898,8 +3900,10 @@ input, select, textarea {
 					padding: 2rem;
 					width: 100%;
 				}
+				
+				/* Commenting out the following to bring back border lines for 3 columns */
 
-				#main > .posts > article:nth-child(2n - 1) {
+				/* #main > .posts > article:nth-child(2n - 1) {
 					border-left-width: 2px;
 				}
 
@@ -3913,7 +3917,7 @@ input, select, textarea {
 
 				#main > .posts > article:nth-child(-n + 1) {
 					border-top-width: 0;
-				}
+				} */
 
 				#main > .posts > article .image {
 					max-width: 25rem;
